@@ -47,7 +47,7 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = benjaminvelay@yyhoo.fr
+	email = benjaminvelay@yahoo.fr
 	name = Benjamin Velay
 [filter "lfs"]
 	clean = git-lfs clean -- %f
