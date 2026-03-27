@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	editor = subl -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
@@ -47,7 +47,7 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = velaybenjamin@gmail.com
+	email = 37809545+benjaminvelay@users.noreply.github.com
 	name = Benjamin Velay
 [filter "lfs"]
 	clean = git-lfs clean -- %f
